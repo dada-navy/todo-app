@@ -1,0 +1,27 @@
+
+# Node.jsの依存パッケージ
+node_modules/
+**/node_modules/
+
+# ビルド生成物
+dist/
+**/dist/
+
+# 環境変数・秘密情報
+.env
+.env.*
+!.env.example
+
+# ログファイル
+*.log
+
+# テストのカバレッジ出力
+coverage/
+
+# OSが自動生成するファイル
+.DS_Store
+Thumbs.db
+
+# 証明書・秘密鍵ファイル
+*.pem
+*.key
