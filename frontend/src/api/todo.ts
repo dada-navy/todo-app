@@ -4,6 +4,7 @@ interface Todo {
     title: string;
     completed: boolean;
     createdAt: Date;
+    updatedAt: Date;
 }
 
 const apiUrl = import.meta.env.VITE_API_URL;
